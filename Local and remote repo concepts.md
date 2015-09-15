@@ -12,7 +12,7 @@
 * run git commit to add all the files to the local repo
 * run git remote add origin https://github.com/paramulator/another_test.git
 * 	The above step just says I can refer to the remote repo as "origin" and my local repo now knows what the remote is called.
-*	Origin is not the only name I could have used.  Its just a lable of my choice.
+*	  Origin is not the only name I could have used.  Its just a label of my choice.
 * run git pull origin master
 *	This says pull in the master branch of the origin repo and merge with my current workspace.
 *	In particular, if the remote repo has files not contained in the local depo, those will now be visible in the local.
