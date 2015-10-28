@@ -26,8 +26,9 @@
     + At this point the local repo should have all local files we started with plus all stuff from the remote depo.
 * Update any of the local files per normal tasks...
 * Run `git add -u` to update the local staging area with all local changes you just made.
-    + Or, `git add <specific file names>` is you don't want to stage everything.
+    + Or, `git add <specific file names>` if you don't want to stage everything.
 * Run `git commit` to commit all of those changes to the local repository for this project
+    + Or, `git commit <file name>` to commit a specific file
 * run `git push --set-upstream origin master` to push the local repository changes out to the appropriate branch of the remote repo.
-    + Not sure if the `--set-upstream origin master` option needs to be specified every time.  
+    + Not sure if the `--set-upstream origin master` option needs to be specified every time??  
 * Inspect the remote repo and it should now look like the local project repo.
