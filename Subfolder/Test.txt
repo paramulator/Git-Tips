@@ -1,1 +1,0 @@
-Just a test file.  Curious how Git handles subdirectories
