@@ -12,14 +12,14 @@
 * Start git bash
 * Navigate to the new project directory just created
 * Run `git init` to create an empty local repo
-*	This puts a .git file in the project folder...  this is now the new local repo for this project
+    + This puts a .git file in the project folder...  this is now the new local repo for this project
 * Run `git add` . to initially put all files in the new project folder into the staging area of the local repo for the first time.
     + All files are tracked now.
     + Or, run `git add <file name>` to begin tracking specific files instead of everything.
 * Run `git commit` to add all the tracked files to the local repo.
 * Run `git remote add origin https://github.com/paramulator/Git-Tips.git` ... just make sure to use the correct remote repo.
-* 	+ The above step just says I can refer to the remote repo as "origin" and my local repo now knows what the remote is called.
-    + "Origin" is not the only name I could have used.  Its just a label of my choice.
+    + The above step just says I can refer to the remote repo as "origin" and my local repo now knows what the remote is called.
+    + "origin" is not the only name I could have used.  Its just a label of my choice.
 * Run `git pull origin master`
     + This says pull in the master branch of the origin repo and merge with my current workspace.
     + In particular, if the remote repo has files not contained in the local depo, those will now be visible in the local.
