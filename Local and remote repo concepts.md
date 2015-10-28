@@ -8,7 +8,7 @@
 
 ##### Here is an alternative method if the local repo already happens to exist:  
 * Create a local project directory
-* Add some files to, etc., including this one
+* Add some files to the new directory, etc., including this one
 * Start git bash
 * Navigate to the new project directory just created
 * Run `git init` to create an empty local repo
