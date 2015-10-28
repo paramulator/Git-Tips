@@ -13,7 +13,7 @@
 * Navigate to the new project directory just created
 * Run `git init` to create an empty local repo
     + This puts a .git file in the project folder...  this is now the new local repo for this project
-* Run `git add` . to initially put all files in the new project folder into the staging area of the local repo for the first time.
+* Run `git add .` to initially put all files in the new project folder into the staging area of the local repo for the first time.
     + All files are tracked now.
     + Or, run `git add <file name>` to begin tracking specific files instead of everything.
 * Run `git commit` to add all the tracked files to the local repo.
